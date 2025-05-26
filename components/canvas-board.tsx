@@ -87,7 +87,7 @@ const CanvasBoard = () => {
     canvas.height = window.innerHeight;
 
     const palmImage = new Image();
-    palmImage.src = `public/pal.png`; // Ensure this file is in the public/ folder
+    palmImage.src = `./public/pal.png`; // Ensure this file is in the public/ folder
 
     palmImage.onload = () => {
       const imgAspect = palmImage.width / palmImage.height;
